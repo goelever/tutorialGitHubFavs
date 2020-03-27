@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './components/App';
+//import App from './components/App'; Warum geht das nicht mehr?
+var App = require('./components/popular');
 
 ReactDOM.render(
     <App />,
