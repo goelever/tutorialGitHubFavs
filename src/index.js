@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './components/App'; Warum geht das nicht mehr?
+//Importing modules using require, and exporting using module.exports and exports.foo.
 var App = require('./components/popular');
 
 ReactDOM.render(
